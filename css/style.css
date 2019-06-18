@@ -1,3 +1,96 @@
-nav{
-    background-image: url(../img/bg.jpg)
+/* FONT FACE*/
+@font-face{
+    font-family: "Amaranth";
+    src: url("../fonts/amaranth.otf");
+}
+/*GLOBAL*/
+html{
+    font-size: 62,5%;
+}
+body{
+    font-family: "Sans Open";
+    font-size: ;
+    color: #666;
+    background-color: #F2F2F2;
+}
+img{
+max-width:100%;
+}
+a{
+    color: #96B011;
+}
+a:hover{
+    color: #B09067;
+}
+main h1{
+   font-family: "Amaranth";
+   font-size: 4rem;
+   font-weight: normal;
+}
+main h2{
+    font-family: "Amaranth";
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #96B011;
+}
+main h2 span{
+    background-color: white;
+    padding: 10px;
+}
+main h3{
+    font-family: "Amaranth";
+    font-weight: normal;
+    font-size:2rem ;
+    color: #666;
+    margin: 0;
+}
+.btn{
+    
+    text-transform: uppercase;
+    background-color: #B09067;
+    color: white;
+    padding: 15px 25px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    text-align: center;
+}
+.btn:hover{
+    background-color: rgba(176, 144, 103, 0.75);
+    color: white;
+}
+/*HEADER*/
+#topbar{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0,0, 0.1)
+}
+header{
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    color: white;
+    background-color: #96B011;
+    background-repeat: no-repeat;
+}
+#logo{
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+            align-items: center;
+            margin: 25px;
+}
+#cart{
+    text-align: right;
+    margin: 0;
+}
+#cart strong{
+    color: white;
+    font-size: 2rem;
+    
+
 }
