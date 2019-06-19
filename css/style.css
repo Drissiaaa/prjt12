@@ -306,6 +306,11 @@ footer{
     transition: all0.2s ease 0s;
     cursor: pointer;
     opacity: 0.7;
-    color: white
-    
+    color: white;
+    line-height: 2;
+}
+#bottombar article ul li:hover{
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2 ease 0s;
+    opacity: 1;
 }
