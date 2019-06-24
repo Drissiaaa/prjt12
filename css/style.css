@@ -266,6 +266,76 @@ header nav a:hover {
 padding: 10px;
     
 }
+#product{
+    background-color: white;
+    padding: 25px;
+ 
+}
+#product-detail{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+#product-detail h1{
+    font-size: 3rem;
+    margin: 0;
+}
+#product-detail h2{
+    color: #999;
+    margin: 0;
+}
+#product-detail h2::after{
+    display: none;
+}
+#product-detail p {
+font-style: italic
+}
+#rating{
+    text-align: center;
+    color: #999;
+    font-size: 2.5rem;
+}
+#ratting a{
+    display: block;
+    font-size: 1.6rem;
+}
+.price h3{
+    font-size: 4rem ;
+    font-family: "amaranth";
+    font-weight: normal;
+    margin-top: 0;
+
+}
+.price a{
+    display: block;
+}
+#product-quantity{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flexbox;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: right;
+
+}
+#product-quantity select{
+    width: 300px;
+    padding: 5px;
+}
+#wishlist::before{
+    content: "\F004";
+    font-family: "FontAwesome";
+    margin: 5px;
+    color: #E7877A;
+}
+
 /* FOOTER */
 footer {
 	margin-top: 50px;
