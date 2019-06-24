@@ -335,7 +335,16 @@ font-style: italic
     margin: 5px;
     color: #E7877A;
 }
-
+.listing-product{
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   text-align: center;
+}
+.listing-product img{
+    width: 70%;
+    margin 0 auto;
+}
 /* FOOTER */
 footer {
 	margin-top: 50px;
