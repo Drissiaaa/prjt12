@@ -246,16 +246,25 @@ header nav a:hover {
 	margin: 25px 10px 0 0;
 }
 
-.listing-product {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	text-align: center;
+#presentation{
+    background-color: white;
+    padding: 25px;
 }
-
-.listing-product img {
-	width: 70%;
-	margin: 0 auto;
+#column{
+    background-color: rgba(150, 176, 17, 0.2);
+    text-align: center;
+    padding: 25px;
+    -webkit-columns: 3 300px;
+    -moz-columns: 3 300px;
+    columns: 3 300px; 
+}
+#column img{
+    margin-top: 25px;
+    width: 100px;
+}
+#column p{
+padding: 10px;
+    
 }
 /* FOOTER */
 footer {
@@ -264,7 +273,8 @@ footer {
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-color: #96B011;
-	color: white;
+    color: white;
+
 }
 
 #info {
