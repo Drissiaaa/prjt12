@@ -257,6 +257,119 @@ header nav a:hover {
 	width: 70%;
 	margin: 0 auto;
 }
+
+/* Partie Product */
+#product {
+	background-color: white;
+	padding: 25px;
+}
+
+#product-detail {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+#product-detail h1 {
+	margin: 0;
+	font-size: 3rem;
+}
+
+#product-detail h2 {
+	margin: 0;
+	color: #999;
+}
+
+#product-detail h2::after {
+	display: none;
+}
+
+#product-detail p {
+	font-style: italic;
+}
+
+#rating {
+	text-align: right;
+	color: #999;
+	font-size: 2.5rem;
+}
+
+#rating a {
+	display: block;
+	font-size: 1.6rem;
+}
+
+.gold {
+	color: #FFDC0F;
+}
+
+.price h3 {
+	font-family: "Amaranth";
+	font-weight: normal;
+	font-size: 4rem;
+	margin-top: 0;
+}
+
+.price a {
+	display: block;
+}
+
+#product-quantity {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	text-align: right;
+}
+
+#product-quantity select {
+	width: 300px;
+	padding: 5px;
+}
+
+#wishlist::before {
+	content: "\F004";
+	font-family: "FontAwesome";
+	margin: 5px;
+	color: #E7877A;
+}
+
+/* Partie About */
+#presentation {
+	background-color: white;
+	padding: 25px;
+}
+
+.left, .right {
+	margin: 25px;
+}
+
+#column {
+	-webkit-columns: 3 300px;
+	   -moz-columns: 3 300px;
+	        columns: 3 300px;
+	text-align: center;
+	padding: 25px;
+	background-color: rgba(150, 176, 17, 0.2);
+}
+
+#column img {
+	margin-top: 25px;
+	width: 100px;
+}
+
+#column p {
+	padding: 10px;
+}
+
 /* FOOTER */
 footer {
 	margin-top: 50px;
@@ -339,6 +452,7 @@ footer {
 	-webkit-transition: all 0.2s ease 0s;
 	transition: all 0.2s ease 0s;
 }
+
 
 @media screen and (max-width: 1024px) {
 	.ribbon {
